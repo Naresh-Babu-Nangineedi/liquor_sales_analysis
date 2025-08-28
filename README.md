@@ -49,6 +49,8 @@ The data can be used to analyze sales trends, store performance, and product dem
 
 ## Architecture & Implementation
 
+![Medallian](liquor_sales_analysis/screenshots/medallian_architecture.jpg)
+
 ## ⚙️ Data Processing Steps
 
 The project follows a **Medallion Architecture** for **data lakehouse processing**:
@@ -89,6 +91,9 @@ The project follows a **Medallion Architecture** for **data lakehouse processing
 2. **Top 10 Categories by Sales** → Bar chart
 3. **Top 10 Cities by Sales** → Column chart
 4. **Top 10 Products by Sales** → Horizontal bar chart
+
+![Sales Overview](liquor_sales_analysis/screenshots/sales_dashboard.png)
+
 
 ## 🔒 Fabric Admin & Governance Tasks
 
